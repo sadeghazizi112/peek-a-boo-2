@@ -2,11 +2,24 @@
   display: none;
 }
 
-.clickable {
+#manatee-showing {
+  display: none;
+}
+
+.clickable1 {
   cursor: pointer;
   color: #0088cc;
 }
 
-.clickable:hover {
+.clickable2 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable1:hover {
+  text-decoration: underline;
+}
+
+.clickable2:hover {
   text-decoration: underline;
 }
